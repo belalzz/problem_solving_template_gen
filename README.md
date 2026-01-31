@@ -32,4 +32,4 @@ cd pst-cli
 - cmake ..
 - cmake --build .
 
-3. .exe will be available in build/bin/Debugs
+3. .exe will be available in build/bin/Debug
