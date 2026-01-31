@@ -32,4 +32,4 @@ cd pst-cli
 - cmake ..
 - cmake --build .
 
-3. .exe will be available in build/bin/Debug
+3. .exe will be available in pst-cli\build\bin\Debug\pst.exe
