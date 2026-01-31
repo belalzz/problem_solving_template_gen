@@ -1,19 +1,35 @@
-# PST Utility
+# pst CLI
 
-A simple CLI tool to bootstrap problem-solving folders and files.
+A **command-line tool** to quickly create files from templates in any folder.  
+Ideal for bootstrapping files, boilerplate code, or repetitive tasks.
 
-## Usage
+---
+
+## Features
+
+- Create a folder (if needed) and file from a template.
+- Automatically copies a template file into the new file.
+- Matches the template file’s extension automatically.
+- Saves root folder, template path, and author settings for future runs.
+- Reset saved settings with `-r`.
+- Works on any folder and file type, not tied to any specific use case.
+
+---
+
+## Installation
+
+### Using CMake
+
+1. Clone the repository:
 
 ```bash
-# Normal usage
-./pst folder_name [file_name]
-
-# Reset saved settings
-./pst -r
-
+git clone https://github.com/<belalzz>/pst-cli.git
+cd pst-cli
 ```
-# Building from the Source using mingw: 
-mkdir builds
-cd build
-cmake ..
-cmake --build .
+2. Build
+- mkdir build
+- cd build
+- cmake ..
+- cmake --build .
+
+3. .exe will be available in build/bin/Debugs
